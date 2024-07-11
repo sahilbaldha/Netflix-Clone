@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.ab {
+   background-image: url("a1.jpg");
+   height: 80vh;
+   background-size: max(1696px, 100vw);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.bc {
+   background-color: black;
+   height: 80vh;
+   width: 100vw;
+   opacity: 0.55;
+   position: absolute;
+   top: 0;
+
+}
+
+body {
+   background-color: black;
+}
+
+.cc {
+   display: flex;
+   position: relative;
+   z-index: 10;
+   width: 80vw;
+   margin: auto;
+   justify-content: space-between;
+   align-items: center;
+   height: 61px;
+
+}
+
+.cc img {
+   margin-top: 10px;
+
+}
+
+.mm {
+   display: flex;
+   height: calc(100% - 61.29px);
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   position: relative;
+   font-family: "Martel Sans", sans-serif;
+   font-style: normal;
+   gap: 23px;
+   padding: 0px 30px;
+   text-align: center;
+}
+
+.mm> :first-child {
+   font-size: 48px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+
+
+
+}
+
+.mm> :nth-child(2) {
+   font-size: 24px;
+   font-weight: 400;
+}
+
+.mm> :nth-child(3) {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.dd {
+
+   height: 8px;
+   background-color: rgba(128, 128, 128, 0.399);
+}
+
+.but {
+   color: white;
+   font-family: "Martel Sans", sans-serif;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.but2 {
+   background-color: red;
+   padding: 5px 12px;
+   font-size: 14px;
+   border-radius: 4px;
+}
+
+.but1 {
+   background-color: rgba(0, 0, 0, 0.18);
+   padding: 3px 28px;
+   font-size: 16px;
+   border: 1px solid rgba(244, 238, 238, 0.462);
+
+}
+
+.but3 {
+   background-color: red;
+   padding: 9px 55px 9px 25px;
+   font-size: 24px;
+
+}
+
+.mm input {
+   color: white;
+   font-family: "Martel Sans", sans-serif;
+   font-weight: bold;
+   padding: 16px 120px 14px 25px;
+   font-size: 16px;
+   margin: 0px 10px;
+   background-color: rgba(0, 0, 0, 0.18);
+   border: 1px solid rgba(244, 238, 238, 0.462);
+
+}
+
+.ff {
+   display: flex;
+   justify-content: center;
+   max-width: 70vw;
+   margin: auto;
+   align-items: center;
+
+}
+
+.ll {
+   position: relative;
+}
+
+.ff img {
+   width: 555px;
+   position: relative;
+   z-index: 10;
+
+}
+
+
+.ff video {
+   position: absolute;
+   top: 47px;
+   right: 5px;
+}
+
+.oo {
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+
+.oo :nth-child(1) {
+   font-size: 48px;
+   font-family: "Martel Sans", sans-serif;
+   font-weight: 900;
+}
+
+.oo :nth-child(2) {
+   font-size: 24px;
+   font-weight: 400;
+   font-family: "Martel Sans", sans-serif;
+}
+
+.fd {
+   display: flex;
+   justify-content: center;
+   max-width: 70vw;
+   margin: auto;
+   align-items: center;
+
+}
+
+.ld {
+   position: relative;
+}
+
+.fd img {
+   width: 555px;
+   position: relative;
+   z-index: 10;
+
+}
+
+
+.fd video {
+   position: absolute;
+   top: 22px;
+   right: 98px;
+   max-width: 350px;
+}
+
+.we {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 80vw;
+   margin: auto;
+   align-items: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   gap: 23px;
+
+
+}
+
+.we> :nth-child(1) {
+   font-size: 48px;
+   font-weight: 900;
+   font-family: "Martel Sans", sans-serif;
+   color: white;
+
+
+}
+
+.qe {
+   font-size: 24px;
+   font-weight: 400;
+   font-family: "Martel Sans", sans-serif;
+   color: white;
+   width: 80vw;
+   background-color: #2d2d2d;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 25px;
+   padding-right: 21px;
+   cursor: pointer;
+
+
+}
+
+.qe:hover {
+   background-color: #414141;
+   transition-duration: 5s;
+   transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+
+.cl {
+
+   display: grid;
+   width: 80vw;
+   margin: auto;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   row-gap: 30px;
+   margin-top: 46px;
+}
+
+.lol {
+   color: white;
+   grid-column-start: 1;
+   grid-column-end: 5;
+   font-family: "Martel Sans", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.lob a {
+   color: white;
+   font-family: "Martel Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+@media screen and (max-width:1409px) {
+   .ff {
+      max-width: 90vw;
+
+   }
+
+   .fd {
+      max-width: 90vw;
+   }
+}
+
+@media screen and (max-width:1092px) {
+
+   .oo :nth-child(1) {
+      font-size: 32px;
+   }
+
+   .oo :nth-child(2) {
+      font-size: 16px;
+   }
+
+   .ff img {
+      width: 400px;
+   }
+
+   .ff video {
+      width: 350px;
+   }
+
+   .fd img {
+      width: 400px;
+   }
+
+   .fd video {
+      right: 71px;
+      width: 252px;
+      top: 26px;
+   }
+}
+
+@media screen and (max-width:992px) {
+
+   .we> :nth-child(1) {
+      font-size: 32px;
+   }
+
+   .mm> :first-child {
+      font-size: 36px;
+   }
+
+   .cl {
+     
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+   .lol{
+      grid-column-start: 1;
+      grid-column-end: 4;
+   }
+}
+
+@media screen and (max-width:765px) {
+
+   .ff {
+      flex-wrap: wrap;
+      width: 70vw;
+   }
+
+   .fd {
+      flex-wrap: wrap;
+      width: 70vw;
+
+   }
+
+   .oo {
+      text-align: center;
+      margin-top: 15px;
+   }
+
+   .oo :nth-child(1) {
+      font-size: 26px;
+   }
+
+   .oo :nth-child(2) {
+      font-size: 14px;
+   }
+
+   .mm> :first-child {
+      font-size: 24px;
+   }
+
+   .mm> :nth-child(2) {
+      font-size: 20px;
+   }
+
+   .mm> :nth-child(3) {
+      font-size: 16px;
+   }
+
+   .but3 {
+      padding: 3px 30px 5px 15px;
+   }
+
+   .mm input {
+      padding: 11px 106px 8px 12px;
+   }
+}
+
+@media screen and (max-width:666px) {
+
+   .mm> :nth-child(4) {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+   }
+
+   .we> :nth-child(1) {
+      font-size: 26px;
+   }
+   .lob 
+   {
+      justify-self: center;
+   }
+}
+@media  screen and (max-width:582px) {
+    
+   .cl {
+     
+      grid-template-columns: 1fr 1fr ;
+   }
+   .lol{
+      grid-column-start: 1;
+      grid-column-end: 3;
+   }
+   .cc img 
+   {
+      width: 150px;
+   }
+   .cc 
+   {
+      width: 90vw;
+   }
+}
